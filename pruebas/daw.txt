@@ -1,0 +1,11 @@
+M02 Bases de dades
+M03 Programació
+M05 Entorns de desenvolupament
+M06 Desenvolupament web entorn client
+M07 Desenvolupament web entorn servidor
+M08 Desplegament d'aplicacions web
+M09 Disseny d'interfícies web
+M12 Projecte Desenvolupament d'aplicacions web
+M15 Desenvolupament web entorn mòbil
+
+Programación
