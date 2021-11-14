@@ -1,5 +1,5 @@
 *.dat
-results/
 resultados/basura
 *log
 !final.log
+results/data/position/gps/*data
