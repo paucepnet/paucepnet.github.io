@@ -1,3 +1,5 @@
 *.dat
 results/
-resultados/basura/
+resultados/basura
+*log
+!final.log
