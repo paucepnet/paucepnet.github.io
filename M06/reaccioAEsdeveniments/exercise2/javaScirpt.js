@@ -1,4 +1,4 @@
-const idImage = "image", idButton = "button";
+const idImage = "imageClick", idButton = "buttonClick";
 
 function hanFetClick(element) {
     let idElement = element.id;
