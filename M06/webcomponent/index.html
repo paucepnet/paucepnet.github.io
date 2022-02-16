@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WebComponent</title>
+</head>
+<body>
+    <h2>Tipos</h2>
+    <ul> 
+        <!--Atributos personalizados-->
+        <li data-grupo="tipo" data-name="primerPlato">Primer plato</li>
+        <li data-grupo="tipo" data-name="segundoPlato">Segundo plato</li>
+        <li data-grupo="tipo" data-name="postre">Postre</li>
+        <li data-grupo="tipo" data-name="bebida">Bebida</li>
+    </ul>
+    <h2 style="margin-top: 40px;">Productos</h2>
+    <ul>
+        <li data-grupo="productos" data-tipus="primerPlato">Canelones</li>
+        <li data-grupo="productos" data-tipus="bebida">Coca-cola</li>
+        <li data-grupo="productos" data-tipus="postre">Crepes</li>
+        <li data-grupo="productos" data-tipus="primerPlato">Paella</li>
+        <li data-grupo="productos" data-tipus="segundoPlato">Espagueti</li>        
+        <li data-grupo="productos" data-tipus="primerPlato">Entrecot</li>
+        <li data-grupo="productos" data-tipus="bebida">Pepsi</li>
+        <li data-grupo="productos" data-tipus="postre">Helado de nata</li>
+        <li data-grupo="productos" data-tipus="bebida">Fanta</li>
+        <li data-grupo="productos" data-tipus="segundoPlato">Merluza a la romana</li>
+        <li data-grupo="productos" data-tipus="postre">Crema de chocolate</li>
+    </ul>
+    <h3 style="margin-top: 40px;">Filtrar</h3>
+    <div>
+        <button class="button" id="btnTodos">Todos</button>
+        <button class="button" id="btnPrimerPlato">Primer plato</button>
+        <button class="button" id="btnSegundoPlatos">Segundo plato</button>
+        <button class="button" id="btnPostres">Postres</button>
+        <button class="button" id="btnBebida">Bebida</button>
+    </div>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
