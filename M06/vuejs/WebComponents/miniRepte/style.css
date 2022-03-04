@@ -1,0 +1,67 @@
+body {
+    background-color: #c7f6d4;
+  }
+  #app {
+    margin-left:10px;
+  }
+  .selected {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .form,.divReview  {
+    margin-top: 30px;
+    margin-bottom:100px;
+    border-radius: 10px;
+    width: 400px;
+    background-color: #edf5ef;
+    padding: 40px;
+  }
+  .divReview {
+    padding-left:30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .input {
+    width: 300px;
+  }
+  
+  .divRating , .divOpinion{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .divStars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fa-disabled {
+    color: gray;
+  }
+  
+  .fa-active {
+    color: #efb810;
+  }
+  textarea {
+    margin-left:30px; 
+    resize: none;
+    width:300px;
+    height: 100px;
+  }
+  .divSubmit {
+    margin-bottom: 40px;
+    width: 400px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #btnSubmit {
+    width: 200px;
+  }
+  .fa-exclamation-triangle {
+    margin-right: 10px;
+  }
