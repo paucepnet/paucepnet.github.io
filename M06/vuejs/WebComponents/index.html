@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>WebComponents (VUE)</h1>
+    <h2>Exercises:</h2>
+    <h3>1. INTRODUCCIÓ, WEBAPP AMB VUE</h3>
+    <p>Add a description key to our existing data object with the value 
+    “A pair of warm, fuzzy socks”. Then display description using an expression in an p element, underneath the h1.</p>
+    <iframe width="80%" height="600" src="//jsfiddle.net/pgranellm26/aLwye2t0/12/embedded/js,html,css,result/dark/" 
+    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+    
+
+    <h3>2. RENDERITZACIÓ DECLARATIVA D’ELEMENTS</h3>
+    <p>Add a link to your data object, and use v-bind to sync it up with an anchor tag in your HTML. 
+    Hint: you’ll be binding to the href attribute.</p>
+    <iframe width="80%" height="600" src="//jsfiddle.net/pgranellm26/Ljsomh5w/5/embedded/js,html,css,result/dark/" 
+    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+    
+    <p>Add an onSale property to the product’s data that is used to conditionally render a span that says “On Sale!</p>
+    <iframe width="80%" height="600" src="//jsfiddle.net/pgranellm26/v47cbp5n/6/embedded/js,html,css,result/dark/" 
+    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+    <p>Add an array of sizes to the data and use v-for to display them in a list.</p>
+    <iframe width="80%" height="600" src="//jsfiddle.net/pgranellm26/r1wzx5bs/6/embedded/js,html,css,result/dark/" 
+    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+    <h3>3. GESTIÓ D’EVENTS</h3>
+    <p>Create a new button and method to decrement the value of cart.</p>
+    <iframe width="80%" height="600" src="//jsfiddle.net/pgranellm26/fedk5gx8/11/embedded/js,html,css,result/dark/" 
+    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+
+    <h3>4. AFEGINT ESTIL DE MANERA DINÀMICA</h3>
+    <p>When inStock is false, bind a class to the “Out of Stock” p tag that adds text-decoration: line-through to that element</p>
+    <iframe width="80%" height="600" src="//jsfiddle.net/pgranellm26/85c9gfo1/9/embedded/js,html,css,result/dark/" 
+    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+
+    <h3>5. PROPIETATS COMPUTADES</h3>
+    <p>Add a new boolean data property onSale and create a computed property that takes brand, product and onSale 
+    and prints out a string whenever onSale is true</p>
+    <iframe width="80%" height="600" src="//jsfiddle.net/pgranellm26/62dgw4sr/14/embedded/js,html,css,result/dark/" 
+    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+
+    <h3>6. COMPONENTS, COMPOSICIÓ, COMUNICACIÓ I  EVENTS.</h3>
+    <p>Create a new component for product-details with a prop of details.</p>
+    <iframe width="80%" height="600" src="//jsfiddle.net/pgranellm26/qy07L92w/40/embedded/js,html,css,result/dark/" 
+    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+    <p>Add a button that removes the product from the cart array by emitting an event with the id of the product to be removed</p>
+    <iframe width="80%" height="600" src="//jsfiddle.net/pgranellm26/96shvq1y/66/embedded/js,html,css,result/dark/" 
+    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+
+    <h3>7. FORMULARIS</h3>
+    <p>Add a question to the form: “Would you recommend this product”. Then take in that response 
+    from the user via radio buttons of “yes” or “no” and add it to the productReview object, with form validation.</p>
+    <iframe width="80%" height="600" src="//jsfiddle.net/pgranellm26/hx54gkrc/131/embedded/js,html,css,result/dark/" 
+    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+    <h3>8. TABS</h3>
+    <p>Create tabs for “Shipping” and “Details” that display the shipping cost and product details, respectively.</p>
+    <iframe width="80%" height="600" src="//jsfiddle.net/pgranellm26/nywdtpr6/81/embedded/js,html,css,result/dark/" 
+    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+    
+
+
+    <h3 style="margin-top: 100px;">Minirepte amb Visual Studio Code</h3>
+    <p>Minirepte propi amb Visual Studio Code fent ús de:</p>
+    <p> Directives:</p>
+    <div class="divLista">
+        <div class="listaApartado">
+            <ul>
+                <li>v-text</li>
+                <li>v-model</li>
+                <li>v-if</li>
+            </ul>
+        </div>
+        <div class="listaApartado">
+            <ul>
+                <li>v-for</li>
+                <li>v-bind</li>
+                <li>v-on</li>
+            </ul>
+        </div>
+        <div class="listaApartado">
+            <ul>
+                <li>Computed properties</li>
+                <li>props</li>
+                <li>emits</li>
+            </ul>
+        </div>
+        <div class="listaApartado">
+            <ul>
+                <li>Class & Style Binding</li>
+            </ul>
+        </div>
+    </div>
+    <p style="margin-top: 15px;">Elements pare i elements fill amb comunicació bidireccional:</p>
+    <p style="margin-top: 15px;">Formularis (amb validació):</p>
+    <div style="margin-top: 15px;">
+        Link del repte: <a href="https://paucepnet.github.io/M06/vuejs/WebComponents/miniRepte/index.html" 
+        style="margin-top: 0px; margin-left: 10px;">https://paucepnet.github.io/M06/vuejs/WebComponents/miniRepte/index.html</a>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <div style="height: 800px;">
+
+    </div>
+</body>
+</html>
