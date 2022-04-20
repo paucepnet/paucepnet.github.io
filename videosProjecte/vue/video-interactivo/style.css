@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+
+
+#containerVideo {
+    position: relative;
+    width:1066.2px;
+    height:600px;
+
+}
+
+#video {
+    background-color: black;
+}
+
+#video::-webkit-media-controls-fullscreen-button {
+    display: none;
+}
+
+.backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0,0,0,0.8);
+    z-index: 100;
+}
+
+#titleVideo {
+    font-size: 60px;
+    font-family: 'Bowlby One SC', cursive;
+    color: white;
+}
+
+.questions {
+    width: 350px;
+    height: 150px;
+    background-color: #636AF2;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.questions:hover {
+    box-shadow: 2px 1px 26px 3px rgba(99,106,242,0.75);
+    -webkit-box-shadow: 2px 1px 26px 3px rgba(99,106,242,0.75);
+    -moz-box-shadow: 2px 1px 26px 3px rgba(99,106,242,0.75);
+}
+
+.answers {
+    color: white;
+    font-size: 50px;
+    font-family: 'Bowlby One SC', cursive;
+}
+
+.fa-refresh {
+    z-index: 500;
+    color: white;
+    cursor: pointer;
+}
