@@ -1,0 +1,59 @@
+#containerIntro {
+    display: block;
+}
+
+
+.vasosIntro {
+    position: absolute;
+    height:231.4px;
+    width:200px;
+    background-image: url(../media/plasticCup/cupBlue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+#vasoIntro1 {
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+
+}
+
+#vasoIntro2 {
+    top: 50%;
+    left: 1930px;
+    transform: translateY(-50%);
+    
+}
+
+#containerIntro {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    overflow: hidden;
+}
+
+#titleGame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100.8px;
+    height: 44.8px;
+    background-image: url(../media/trilePlay.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    visibility: hidden;
+    transform: translate(-50%,-50%) scale(1);
+}
+
+
+.titleGame.click:hover {
+    cursor: pointer;
+
+}
+
+

@@ -1,0 +1,122 @@
+.divBackgound {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url(../media/fondos/space/space.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    visibility: visible;
+    display: block;
+}
+
+.title {
+    position: absolute;
+    top: 10%;
+    left: 50%;      
+    /*3.19*/    
+    width: 500px;
+    height: 156.73px;    
+    /*
+    width: 156px;
+    height: 276px;
+    */
+    transform: translate(-50%,-10%);
+    border: 2px transparent black;
+    background-image: url(../media/title.png);
+    /*background-image: url(../media/numbers/1.png);*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    visibility: visible;
+    display: none;
+}
+
+.buttons {
+    position: absolute;    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    visibility: visible;
+    display: none;
+    cursor: pointer;
+}
+#play {    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    height: 200px;
+    background-image: url(../media/playButton.png);
+}
+#cupButton {
+    top: 50%;
+    left: 35%;
+    transform: translate(-35%,-50%);
+    width: 100px;
+    height: 100px;
+    background-image: url(../media/cupButton.png);
+
+}
+
+#backgroundButton {
+    top: 50%;
+    left: 65%;
+    transform: translate(-65%,-50%);
+    width: 100px;
+    height: 100px;
+    background-image: url(../media/imageButton.png);
+}
+
+#informationButton {
+    top: 90%;
+    left: 11%;
+    transform: translate(-11%,-90%);
+    width: 75px;
+    height: 75px;
+    background-image: url(../media/informationButton.png);
+}
+
+#soundButton {
+    top: 90%;
+    left: 5%;
+    transform: translate(-5%,-90%);
+    width: 75px;
+    height: 75px;    
+}
+/*
+#instruccionsButton {
+    top: 90%;
+    left: 17%;
+    transform: translate(-17%,-90%);
+    width: 75px;
+    height: 75px;
+    background-image: url(../media/instruccionsButton2.png);
+}
+*/
+#statisticButton {
+    top: 90%;
+    left: 17%;
+    transform: translate(-23%,-90%);
+    width: 75px;
+    height: 75px;
+    background-image: url(../media/statisticButton.png);
+}
+
+.buttons.index.sound.on {
+    background-image: url(../media/soundOnButton.png);
+}
+.buttons.index.sound.off {
+    background-image: url(../media/soundOffButton.png);
+}
+
+
+/*
+.hidden {
+    visibility: hidden;
+}
+*/

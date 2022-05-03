@@ -1,0 +1,43 @@
+#background {
+    position: fixed;
+    top:0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url(../media/fondos/fondoDesierto/fondoDesierto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.informationPanel {
+    width: 400px;
+    height: 76.33px;
+    margin: 40px;
+    background-image: url(../media/informationPanel.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.textInformation {
+    margin-left: 30px;
+}
+
+#buttonBackInformation {
+    width: 75px;
+    height: 75px;
+    margin: 40px;
+    background-image: url(../media/buttonBack.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+#containerInformation {
+    display: none;
+}

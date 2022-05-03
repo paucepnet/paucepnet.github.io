@@ -1,0 +1,92 @@
+/*
+.background{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url(../media/fondos/fondoDesierto/fondoDesierto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+*/
+
+#containerModulos {
+    display: none;   
+    
+}
+
+.colModul {
+    height: 20vh;
+    /*border: 2px solid black;*/
+    /*position: relative;*/
+    
+}
+
+.modul {
+    width: 300px;
+    height: 91.18px;
+    /*background-image: url(../media/modulos/DAM.png);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*display: inline;*/
+    /*
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    */
+    z-index: 1;
+}
+
+#enunciadoModulo {
+    /*9.39*/
+    width: 800px;
+    height: 85.19px;
+    background-image: url(../media/escullUnEstudi.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.modul:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+#dam {
+    background-image: url(../media/modulos/DAM.png);
+}
+#daw {
+    background-image: url(../media/modulos/DAW.png);
+}
+#smix {
+    background-image: url(../media/modulos/SMIX.png);
+}
+#gvec {
+    background-image: url(../media/modulos/GVEC.png);
+}
+#adir {
+    background-image: url(../media/modulos/ADIR.png);
+}
+#afi {
+    background-image: url(../media/modulos/AFI.png);
+}
+#gad {
+    background-image: url(../media/modulos/GAD.png);
+}
+#acom{
+    background-image: url(../media/modulos/ACOM.png);
+}
+#avie {
+    background-image: url(../media/modulos/AVIE.png);
+}
+#cint {
+    background-image: url(../media/modulos/CINT.png);
+}
+#marp {
+    background-image: url(../media/modulos/MARP.png);
+}

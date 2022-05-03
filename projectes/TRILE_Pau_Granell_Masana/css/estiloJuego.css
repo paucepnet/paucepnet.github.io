@@ -1,0 +1,290 @@
+
+
+
+.points {
+    display:none;
+}
+
+#divGamePoints {
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    transform: translate(-2%,-3%);
+    width: 300px;
+    height: 223.88px;
+    background-image: url(../media/woodTable.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#divObjetivo {
+    position: absolute;
+    top: 30%;
+    left: 2%;
+    transform: translate(-2%,-30%);
+    /*3.41*/
+    width: 375px;
+    height: 109.97px;
+    background-image: url(../media/woodTableObjetivo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: none;
+    z-index: 2;
+}
+
+#gamePoints {
+    position: relative;
+    margin-top: 70px;
+    margin-left: 30px;
+    font-size: xxx-large;    
+    font-family: 'Luckiest Guy', cursive;    
+    color: white;
+    -webkit-text-stroke: 2px #e99e38;
+}
+
+.cuentaAtras {
+    position: absolute;    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+
+}
+#number3 {
+    width: 279.72px;
+    height: 400px;
+    background-image: url(../media/numbers/3.png);
+}
+#number2 {
+    width: 309.11px;
+    height: 400px;
+    background-image: url(../media/numbers/2.png);
+}
+#number1 {
+    width: 228.47px;
+    height: 400px;
+    background-image: url(../media/numbers/1.png);
+}
+#go {
+    width: 792px;
+    height: 400px;
+    background-image: url(../media/go.png);
+}
+
+#bonusQuestion {
+    position: absolute;    
+    top: 50%;
+    left: 50%;
+    width: 1800px;
+    height: 221.94px;
+    transform: translate(-50%,-50%);
+    background-image: url(../media/bonusQuestion.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+
+}
+
+
+
+.divPrincipal{
+    /*height:800px;*/
+    /*width:1650px;*/
+    height:800px;
+    width: 700px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%); /*Lo que estas indicando aqui es que se 
+    moveran un 50 por ciento,respecto hacia su anchura actual, hacia la izquierda y un 50% hacia arriba,respecto a su altura actual.
+    Si los porcentajes fueran positivos se moverian hacia las direciones opuestas (izquierda,arriba)
+    */
+    border:2px transparent black;
+    position: absolute;
+    display: none;
+}
+
+
+.vasoDiv{
+    height:231.4px;
+    width:200px;
+    position: absolute;
+    top:50%;
+    border:2px transparent black;    
+    background-image: url(../media/plasticCup/cupBlue.png);
+    background-repeat: no-repeat; /*Para que la imagen no se repita*/
+    background-position: center; /*Se posicione en el centro*/
+    background-size: cover;    /*Para que se adapte a la caja*/
+    transform: translate(-100px,-115.7px);
+    display: none;
+}
+#vaso1{
+    left: 25%;   
+}
+#vaso2{
+    left: 75%;
+}
+#vaso3 {
+    top: 50%;
+    left: 83.3333%;
+}
+
+
+#icon{
+    position: absolute;
+    width: 150px;
+    height: 45.59px;    
+    transform: translate(-75px,-22.759px);
+    top: 55%;
+    left:25%;
+    visibility: visible;
+    border: 2px transparent black;
+
+    background-image: none;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    display: none;
+}
+/*
+300 / 289 = 1.03
+#icon1{
+    
+    width: 103px;
+    height: 100px;    
+    transform: translate(-51.5px,-50px);
+    background-image: url(../media/damIcon.png);
+    
+    
+    
+}
+*/
+
+.contador{
+    width: 700px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    top:4%;
+    border: 2px solid #1793e3;
+    border-radius: 20px;
+    transform: translate(-350px,-10px);
+    display: none;
+    
+}
+
+.contador.progress{
+    width: 11.6px;
+    height: 21px;
+    border-radius: 20px;
+    background-color: #27afec;
+    display: none;
+}
+
+
+.puntoRefercia {
+    position: absolute;
+    background-color: green;
+    width:5px;
+    height: 5px;
+    visibility: hidden;
+    /*transform: translate(-5px,-5px);*/
+    display: none;
+}
+#pa1 {
+    top: 16.666%;
+    left:25%;        
+}
+#pa2 {
+    top: 16.666%;
+    left:75%;
+}
+#pa3 {
+    top: 16.666%;
+    left: 83.333%;
+}
+
+#pb1 {
+    top: 50%;
+    left:25%;        
+}
+#pb2 {
+    top: 50%;
+    left:75%;
+}
+#pb3 {
+    top: 50%;
+    left:83.333%;
+}
+
+#pc1 {
+    top: 83.332%;
+    left:25%;
+}
+#pc2 {
+    top: 83.332%;
+    left:75%;        
+}
+#pc3 {
+    top: 83.332%;
+    left:83.333%;        
+}
+
+
+
+
+.sectores{
+    position: absolute;
+    width:50%;
+    height:33.333%;
+    border: 2px transparent black;
+    z-index: -1;
+    display: none;
+}
+
+#sa1{
+    top:0%;
+    left:0%;
+}
+#sa2{
+    top:0%;
+    left:50%;
+}
+#sa3 {
+    top:0%;
+    left:66.666%;
+}
+
+#sb1{
+    top:33.333%;
+    left:0%;
+}
+#sb2{
+    top:33.333%;
+    left:50%;
+}
+#sb3 {
+    top:33.333%;
+    left:66.666%;
+}
+
+#sc1{
+    top:66.666%;
+    left:0%;
+}
+#sc2{
+    top:66.666%;
+    left:50%;
+}
+#sc3{
+    top:66.666%;
+    left:66.666%;
+}

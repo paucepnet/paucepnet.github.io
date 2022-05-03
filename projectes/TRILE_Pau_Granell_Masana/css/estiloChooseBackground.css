@@ -1,0 +1,85 @@
+.choose.background {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    visibility: hidden;
+    display: none;
+}
+
+.choose.background.visible {
+    visibility: visible;
+}
+
+#backgroundDesert {
+    background-image: url(../media/fondos/fondoDesierto/fondoDesierto.jpg);
+}
+#backgroundDesert2 {
+    background-image: url(../media/fondos/fondoDesierto2/fondoDesierto2.jpg);
+}
+#backgroundSky {
+    background-image: url(../media/fondos/fondoCielo.jpg);
+}
+#backgroundForest {
+    background-image: url(../media/fondos/forest/forest.jpg);
+}
+#backgroundBoom {
+    background-image: url(../media/fondos/boom/boom.jpg);
+}
+#backgroundSpace {
+    background-image: url(../media/fondos/space/space.jpg);
+}
+#backgroundIsland {
+    background-image: url(../media/fondos/island/island.jpg);
+}
+#backgroundIgloo {
+    background-image: url(../media/fondos/igloo/igloo.jpg);
+}
+#backgroundMountain {
+    background-image: url(../media/fondos/mountain/mountain.jpg);
+}
+#backgroundRoute66 {
+    background-image: url(../media/fondos/route66/route66.jpg);
+}
+
+
+.buttonChooseBackground {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    display: none;
+}
+
+#backgroundBack {
+    top: 5%;
+    left: 2%;
+    transform: translate(-2%,-5%);
+    background-image: url(../media/buttonBack.png);
+    width: 75px;
+    height: 75px;
+}
+
+#chooseBackgroundBack {
+    top:50%;
+    left:2%;
+    transform: translate(-2%,-50%);
+    background-image: url(../media/buttonBack.png);
+    width: 150px;
+    height: 150px;
+}
+
+#chooseBackgroundNext {
+    top:50%;
+    left:98%;
+    transform: translate(-98%,-50%);
+    background-image: url(../media/buttonNext.png);
+    width: 150px;
+    height: 150px;
+}
+

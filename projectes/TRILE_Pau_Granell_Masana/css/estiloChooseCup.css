@@ -1,0 +1,91 @@
+.buttonsChoose {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    display: none;
+}
+
+#chooseBack {
+    top: 5%;
+    left: 2%;
+    transform: translate(-2%,-5%);
+    background-image: url(../media/buttonBack.png);
+    width: 75px;
+    height: 75px;
+}
+
+
+.choose.cup {
+    position: absolute;    
+    /*1,157*/
+    height:300px;
+    width:260px;
+    
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-40%);
+
+    background-image: url(../media/plasticCup/cupBlue.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    z-index: 1;
+    visibility: hidden;
+    display: none;
+
+}
+.choose.cup.visible {
+    visibility: visible;
+}
+
+#choosecupblue {
+    background-image: url(../media/plasticCup/cupBlue.png);
+}
+#choosecupgreen {
+    background-image: url(../media/plasticCup/cupGreen.png);
+}
+
+#choosecuplilac {
+    background-image: url(../media/plasticCup/cupLilac.png);
+}
+
+#choosecuporange {
+    background-image: url(../media/plasticCup/cupOrange.png);
+}
+
+#choosecupred {
+    background-image: url(../media/plasticCup/cupRed.png);
+}
+
+#choosecupyellow {
+    background-image: url(../media/plasticCup/cupYellow.png);
+}
+
+
+.choose.buttons {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    display: none;
+}
+.choose.buttons.back {
+    background-image: url(../media/buttonBack.png);
+    top: 40%;
+    left: 35%;
+    transform: translate(-35%,-40%);
+    width: 100px;
+    height: 100px;
+}
+
+.choose.buttons.next {
+    background-image: url(../media/buttonNext.png);
+    top: 40%;
+    left: 65%;
+    transform: translate(-65%,-40%);
+    width: 100px;
+    height: 100px;
+}
